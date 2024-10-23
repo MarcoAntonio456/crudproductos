@@ -1,0 +1,47 @@
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; 
+    color: white; 
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+.mi-caja {
+    background-color: #f0f8ff; 
+    border: 2px solid #007BFF; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.mi-tabla {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
+}
+
+.mi-tabla th, .mi-tabla td {
+    padding: 12px;
+    text-align: left; 
+    border: 1px solid #ddd; 
+}
+
+.mi-tabla th {
+    background-color: #007BFF;
+    color: white; 
+}
+
+.mi-tabla tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+.mi-tabla tr:hover {
+    background-color: #ddd; 
+}
